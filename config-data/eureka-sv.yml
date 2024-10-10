@@ -1,0 +1,11 @@
+eureka:
+    client:
+        fetch-registry: false
+        register-with-eureka: false
+    instance:
+        lease-renewal-interval-in-seconds: 0
+server:
+    port: 8761
+spring:
+    application:
+        name: eureka-sv
